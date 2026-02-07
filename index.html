@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job_listings</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://plus.unsplash.com/premium_photo-1681400545953-0ba00cfa7926?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aWNvbnxlbnwwfHwwfHx8MA%3D%3D">
+</head>
+<body>
+    <header>
+        <div id="nav_job_listing">
+          <a id="icon" inert="">Job Portal with ATS</a>
+          <a href="index.html" class="a">Job Listings</a>
+          <a href="candidate dashboard.html" class="a" target="_self">My applications</a>
+          <a href="recrutor dashboard.html" class="a" target="_self">For Recruiters</a>
+          <a href="login.html" class="a"> &#xf508;</a>
+        </div>
+    </header>
+    <main>
+        <div style="text-align: center;"><h2 class="head2" inert>Find Your next Opportunity:</h2></div>
+        <div id="search" >
+            <select name="Location" id="Location" placeholder="Location">
+                <option value="" disabled selected inert>Location</option>
+                <option value="Banglore" inert>Banglore</option>
+                <option value="Hyderabad" inert>Hyderabad</option>
+                <option value="Chennai" inert>Chennai</option>
+                <option value="Mumbai" inert>Mumbai</option>
+            </select>
+            <input type="search" placeholder="Search here for related jobs" style="width: 300px;"><button>Search</button>
+        </div>
+        <h2 style="text-align: center; padding: 30px 0px 30px 0px;" inert="">Latest Job Openings</h2>
+        <div id="Openings" style="padding-left: 40px;">
+            <div class="openings"> 
+                <h4 inert>Software Engineer<a class="sub">Company: ABC Tech Solutions</a></h4>
+                <a class="loc" inert="">Location: Banglore</a>
+                <a class="loc" inert="">Job Type: Remote</a>
+                <a class="loc" inert="">Salary: Rs.90,000 - Rs.120,000</a>
+                <p class="des" inert="">This company is looking for a Software Engineer with experience in remote work. The ideal candidate should have a strong background in software development and be able to work independently. The position offers a salary of Rs.90,000 - Rs.120,000 per year.</p>
+                <div style="display: flex;gap: 20px;"><button id="btn" onclick="window.location.href='job details.html';">View Details</button><button id="btn" onclick="window.location.href='apply job.html';">Click to Apply</button></div>
+            </div>
+            <div class="openings">
+                <h4 inert>Front-end Developer<a class="sub">Company : XYZ Tech Solutions</a></h4>
+                <a class="loc" inert="">Location: Hyderabad</a>
+                <a class="loc" inert="">Job Type: On_site</a>
+                <a class="loc" inert="">Salary: Rs.80,000 - Rs.100,000</a>
+                <p class="des">This company is looking for a Front-end Developer with experience in remote work. The ideal candidate should have a strong background in front-end development and be able to work independently. The position offers a salary of Rs.80,000 - Rs.100,000 per year.</p>
+                <div style="display: flex;gap: 20px;"><button id="btn" onclick="window.location.href='job details.html';">View Details</button><button id="btn" onclick="window.location.href='apply job.html';">Click to Apply</button></div>
+            </div>
+            <div class="openings">
+                <h4 inert>Back-end Developer<a class="sub">Company : XYZ Tech Solutions</a></h4>
+                <a class="loc" inert="">Location: Chennai</a>
+                <a class="loc" inert="">Job Type: Full Time</a>
+                <a class="loc" inert="">Salary: Rs.80,000 - Rs.100,000</a>
+                <p class="des">This company is looking for a Back-end Developer with experience in remote work. The ideal candidate should have a strong background in back-end development and be able to work independently. The position offers a salary of Rs.80,000 - Rs.100,000 per year.</p>
+                <div style="display: flex;gap: 20px;"><button id="btn" onclick="window.location.href='job details.html';">View Details</button><button id="btn" onclick="window.location.href='apply job.html';">Click to Apply</button></div>
+            </div>
+            <div class="openings">
+                <h4 inert>DataBase Engineer<a class="sub">Company : ABC Tech Solutions</a></h4>
+                <a class="loc" inert="">Location: Mumbai</a>
+                <a class="loc" inert="">Job Type: Full Time</a>
+                <a class="loc" inert="">Salary: Rs.50000</a>
+                <p class="des">This company is looking for a DataBase Engineer with experience in on-site work. The ideal candidate should have a strong background in database management and be able to work independently. The position offers a salary of Rs.50000 per year.</p>
+                <div style="display: flex;gap: 20px;"><button id="btn" onclick="window.location.href='job details.html';">View Details</button><button id="btn" onclick="window.location.href='apply job.html';">Click to Apply</button></div>
+            </div>
+            <div class="openings">
+                <h4 inert>AI Developer<a class="sub">Company : ABC Tech Solutions</a></h4>
+                <a class="loc" inert="">Location: Banglore</a>
+                <a class="loc" inert="">Job Type: Remote</a>
+                <a class="loc" inert="">Salary: Rs.100,000 - Rs.150,000</a>
+                <p class="des">This company is looking for a AI Developer with experience in remote work. The ideal candidate should have a strong background in AI development and be able to work independently. The position offers a salary of Rs.100,000 - Rs.150,000 per year.</p>
+                <div style="display: flex;gap: 20px;"><button id="btn" onclick="window.location.href='job details.html';">View Details</button><button id="btn" onclick="window.location.href='apply job.html';">Click to Apply</button></div>
+            </div>
+            <div class="openings">
+                <h4 inert>ML Engineer<a class="sub">Company : ABC Tech Solutions</a></h4>
+                <a class="loc" inert="">Location: Hyderabad</a>
+                <a class="loc" inert="">Job Type: Part Time</a>
+                <a class="loc" inert="">Salary: Rs.120,000 - Rs.180,000</a>
+                <p class="des">This company is looking for a ML Engineer with experience in remote work. The ideal candidate should have a strong background in machine learning and be able to work independently. The position offers a salary of Rs.120,000 - Rs.180,000 per year.</p>
+                <div style="display: flex;gap: 20px;"><button id="btn" onclick="window.location.href='job details.html';">View Details</button><button id="btn" onclick="window.location.href='apply job.html';">Click to Apply</button></div>
+            </div>
+            <div class="openings">
+                <h4 inert>Data Analyst<a class="sub">Company : ABC Tech Solutions</a></h4>
+                <a class="loc" inert="">Location: Chennai</a>
+                <a class="loc" inert="">Job Type: Full Time</a>
+                <a class="loc" inert="">Salary: Rs.60,000 - Rs.90,000</a>
+                <p class="des">This company is looking for a Data Analyst with experience in remote work. The ideal candidate should have a strong background in data analysis and be able to work independently. The position offers a salary of Rs.60,000 - Rs.90,000 per year.</p>
+                <div style="display: flex;gap: 20px;"><button id="btn" onclick="window.location.href='job details.html';">View Details</button><button id="btn" onclick="window.location.href='apply job.html';">Click to Apply</button></div>
+            </div>
+            <div class="openings">
+                <h4 inert>Data Scientist<a class="sub">Company : ABC Tech Solutions</a></h4>
+                <a class="loc" inert="">Location: Banglore</a>
+                <a class="loc" inert="">Job Type: Remote</a>
+                <a class="loc" inert="">Salary: Rs.120,000 - Rs.180,000</a>
+                <p class="des">This company is looking for a Data Scientist with experience in remote work. The ideal candidate should have a strong background in data science and be able to work independently. The position offers a salary of Rs.120,000 - Rs.180,000 per year.</p>
+                <div style="display: flex;gap: 20px;"><button id="btn" onclick="window.location.href='job details.html';">View Details</button><button id="btn" onclick="window.location.href='apply job.html';">Click to Apply</button></div>
+            </div>
+            <div class="openings">
+                <h4 inert>UI/UX Designer<a class="sub">Company : XYZ Tech Solutions</a></h4>
+                <a class="loc" inert="">Location: Mumbai</a>
+                <a class="loc" inert="">Job Type: Full Time</a>
+                <a class="loc" inert="">Salary: Rs.70,000 - Rs.90,000</a>
+                <p class="des">This company is looking for a UI/UX Designer with experience in remote work. The ideal candidate should have a strong background in user interface and user experience design. The position offers a salary of Rs.70,000 - Rs.90,000 per year.</p>
+                <div style="display: flex;gap: 20px;"><button id="btn" onclick="window.location.href='job details.html';">View Details</button><button id="btn" onclick="window.location.href='apply job.html';">Click to Apply</button></div>
+            </div>
+            <div class="openings">
+                <h4 inert>Front-end Developer<a class="sub">Company : XYZ Tech Solutions</a></h4>
+                <a class="loc" inert="">Location: Chennai</a>
+                <a class="loc" inert="">Job Type: Full Time</a>
+                <a class="loc" inert="">Salary: Rs.80,000 - Rs.100,000</a>
+                <p class="des">This company is looking for a Front-end Developer with experience in remote work. The ideal candidate should have a strong background in front-end development and be able to work independently. The position offers a salary of Rs.80,000 - Rs.100,000 per year.</p>
+                <div style="display: flex;gap: 20px;"><button id="btn" onclick="window.location.href='job details.html';">View Details</button><button id="btn" onclick="window.location.href='apply job.html';">Click to Apply</button></div>
+            </div>
+        </div>
+    </main>
+    <footer style="text-align: center;">
+        &copy; Job Portal with ATS. All rights reserved.
+        <div style="display: flex;flex-direction: column;align-items: center;gap: 20px;" >
+            <a href="#" class="footer-link">Privacy Policy</a>
+            <a href="#" class="footer-link">Terms of Service</a>
+            <a href="#" class="footer-link">Contact Us</a>
+            <a href="admin dashboard.html" class="footer-link" style="font-size: 2px; text-align: left;">@Admin</a>
+        </div>
+    </footer>
+</body>
+</html>

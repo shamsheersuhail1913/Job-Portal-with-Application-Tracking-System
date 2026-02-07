@@ -1,0 +1,88 @@
+*{margin: 0;padding: 0;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+* {box-sizing: border-box;}
+a{text-decoration: none; color:#0D1164}
+.a{margin-right:2rem;}
+#nav_job_listing{background-color: whitesmoke;height: 50px;width:100%;display: flex;flex-direction: row;align-items: center;font-size: 0.8rem;font-weight: bold;justify-content: flex-end;border: 2px solid whitesmoke;padding-right:40px;box-sizing: border-box;}
+#icon{font-size: 1.5rem;color:#0D1164;font-weight: bold;position: absolute;left: 10px;}
+.head2{padding: 20px 0px 20px 40px;}
+h1,h2,h3,h4,h5,h6{color:#0D1164;}
+.loc{font-size: 0.8rem;font-weight:500;}
+main{background-color: white;}
+#Openings{display:grid;grid-template-columns: 1fr 1fr;grid-template-rows: 1fr 1fr;gap: 40px;margin-bottom: 40px;padding: 0 20px;}
+.openings{height: 220px;max-width:100%;width: 100%;background-color:transparent;border:3px solid black;display:flex;flex-direction: column;font-size: 1.5rem;padding-left: 10px;box-sizing: border-box;}
+#btn{background-color: #0D1164;color: white;border: none;border-radius: 5px;margin-top: 20px;padding: 10px 20px 10px 20px;}
+#search{border: 2px solid #0D1164;padding: 20px;display: flex;justify-content:center;gap: 20px;max-width: 500px;margin: 0 auto;border-radius: 10px;}
+footer{background-color: #0D1164;color:white;padding: 20px 0px 20px 40px;}
+.openings:hover{transform: scale(1.1);}
+.sub{font-size: 0.8rem;margin-left: 10px;}
+.des{font-size: 0.9rem;font-weight: 500;margin-top: 10px;}
+.footer-link{text-decoration: none;color: white;padding: 20px 0 0 0;width:100%}
+#Job_Details{max-width: 1470px;width: 100%;border:2px solid #0D1164;margin:20px auto 20px auto;border-radius: 10px;padding:40px;box-sizing: border-box;}
+
+@media (max-width: 768px) {
+    #nav_job_listing{flex-direction: column;height: auto;padding: 10px;}
+    #icon{position: static;margin-bottom: 10px;}
+    #Openings{grid-template-columns: 1fr;}
+    #search{flex-direction: column;max-width: 90%;padding: 10px;}
+    .openings{font-size: 1rem !important;height: auto !important;min-height: 200px;}
+    #Job_Details{padding: 20px;margin: 10px;}
+    #my_app{grid-template-columns: repeat(1, 1fr) !important;}
+    #column_list{width: 100%;height: auto;position: static;}
+    #post_form{grid-template-columns: 1fr;grid-template-rows: auto;}
+    #post_form input,textarea,select{width: 100%;}
+    .my_applications_grid{width: 100%;}
+    #table{margin: 1rem;}
+}
+@media (min-width: 1025px) {
+    #apply, #my_applications {
+        margin-left: 18%;
+    }
+    #Openings{grid-template-columns: 1fr 1fr;}
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #Openings{grid-template-columns: 1fr 1fr;}
+    #my_app{grid-template-columns: 1fr 1fr;}
+    #column_list{width: 20%;}
+    main{margin-left: 20%;}
+    #post_form input,textarea,select{width: 250px;}
+}
+
+
+#apply{max-width: 600px;width: 100%;border:2px solid #0D1164;margin:20px auto 0px auto;border-radius: 10px;padding:40px;position: relative;}
+#form{height: 400px;display: flex;flex-direction: column;justify-content: space-between;font-weight: 600;}
+#form input{font-size: 1rem;height: 20px;width: 50%;}
+#cover{height: 300px;width: 200px;border: 2px solid #0D1164;position: absolute;top: 20px;right: 20px;}
+#cover img{width:100%;height:100%;object-fit: cover;}
+#my_applications{margin: 40px auto 20px 40px;}
+#my_app{display: grid;grid-template-columns:1fr 1fr 1fr;grid-template-rows: 1fr;gap: 20px;margin: 40px;}
+.my_applications_grid{height: 150px;max-width: 100%;width: 100;width: 300px;border: 5px solid #0D1164;border-radius: 10px;display: flex;flex-direction: column;justify-content: center;align-items: center;background-color: whitesmoke;}
+#table {margin: 2.3rem;max-width: 90%;overflow-x: auto;}
+table {width: 100%;border-collapse: collapse;border: 2px solid #0D1164;background-color: white;}
+th, td {padding: 1rem;text-align: left;border: 1px solid #0D1164;}
+td{font-weight: 600;}
+th {background-color: #0D1164;color: white;font-weight: bold;}
+tr:nth-child(even) {background-color: #f9f9f9;}
+tr:hover {background-color: #f0f0f0;}
+#shortlist {color: green; font-weight: bold;}
+#interview_scheduled { color: #0D1164; font-weight: bold; }
+#rejected { color: red; font-weight: bold; }
+#offer { color: blue; font-weight: bold; }
+#applied { color: orange; font-weight: bold; }
+#column_list{height: 100%;width:18%;display: flex;flex-direction: column;position:fixed;justify-content: flex-start;background-color: #0D1164;}
+#column_list a{color:white;}
+#postjobbtn{position: absolute;top: 20px;right: 20px;height:40px;width: 120px;background-color: #0D1164;color:white;border-radius: 10px;}
+.view_pipe{background-color: #0D1164;color:white;height: 30px;width: 60px;border-radius: 5px;}
+.open{background-color: green;color:white;height:30px;width: 80px;border-radius: 15px;}
+.close{background-color: rgb(177, 9, 9);color:white;height:30px;width: 80px;border-radius: 15px;}
+#format{font-weight: 600;padding: 20px;border: 3px solid #0D1164;background-color: whitesmoke;margin-right:10px;border-radius: 10px;}
+#post_form{display: grid;grid-template-columns: 1fr 1fr;grid-template-rows: 1fr 1fr; gap: 20px;}
+#post_form input,textarea,select{height: 30px;width: 300px;margin-top: 10px;}
+#pipeline_type{display: flex;flex-direction: row;gap: 20px;margin-top: 40px;}
+.pipeline{width: 250px;border-radius: 10px;display: flex;flex-direction: column;justify-content: flex-start;align-items: center;margin:10px 0 0 10px;}
+.candidate_card{background-color: white;border:2px solid white;margin-top:20px;width: 250px;padding:20px 0px 10px 10px;border-radius: 10px;}
+#scroll{overflow: auto;max-height: 500px;max-width: 100%;margin-top: 40px;}
+#my_admin{display: grid;grid-template-columns:1fr 1fr 1fr 1fr;grid-template-rows: 1fr;gap: 20px;margin:60px 20px 20px 20px;}
+.my_admin_grid{height: 150px;width: 100%;max-width: 300px;border: 5px solid #0D1164;border-radius: 10px;display: flex;flex-direction: column;justify-content: center;align-items: center;background-color: whitesmoke;}
+#admin_table{overflow: auto;max-height: 500px;max-width: 100%;}

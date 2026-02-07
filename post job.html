@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post_Job</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://plus.unsplash.com/premium_photo-1681400545953-0ba00cfa7926?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aWNvbnxlbnwwfHwwfHx8MA%3D%3D">
+</head>
+<body>
+     <header>
+        <div id="column_list">
+          <a id="icon" inert="" style="position: relative;top: 10px;">Job Portal with ATS</a>
+          <a href="recrutor dashboard.html" class="a" style="padding:50px 10px 10px 20px;">Dashboard</a>
+          <a href="post job.html" class="a" style="padding:20px 10px 10px 20px;">Post Job</a>
+          <a href="applcation pipeline.html" class="a" style="padding:20px 10px 10px 20px;">Applicant Pipeline</a>
+          <a href="#" class="a" style="padding:20px 10px 10px 20px;"> &#xf508;</a>
+        </div>
+    </header>
+    <main style="margin-left:19%">
+        <h1>Post a New Job</h1>
+        <h3 style="padding: 20px 0px 30px 0px;">Fill the details to publish a Job Opening</h3>
+        <div id="format">
+            <form id="post_form">
+                <label for="title">Job Title:<br><input type="text" placeholder="Enter Job Title"></label>
+                <label for="company">Company Name:<br><input type="text" placeholder="Enter Company Name"></label> 
+                <label for="location">Location:<br><input type="text" placeholder="Enter Location"></label>
+                <label for="experience">Experience <br>
+                <select name="experience" id="">
+                    <option value="" placeholder="Select" disabled selected>Select</option>
+                    <option value="2">0-2 years</option>
+                    <option value="3">3-5 years</option>
+                    <option value="4">5-8 years</option>
+                    <option value="5">8+  years</option>
+                </select></label>
+                <label for="description">Job Description: <br><textarea name="description" id="description" placeholder="Enter Job Description" style="height: 100px;width:75%;"></textarea></label><br>
+                <label for="skills">Skills: <br><textarea name="skills" id="jobskills" placeholder="Enter required skills (comma-separated)" style="height: 50px;width:75%;"></textarea></label><br>
+                <label for="salary">Salary Range: <br><input type="number" placeholder="Enter Salary Range"></label>
+                <label for="type">Job Type: <br>
+                <select name="type" id="typejob">
+                    <option value="" placeholder="Select" disabled selected>Select</option>
+                    <option value="virtual">Remote</option>
+                    <option value="onsite">On_site</option>
+                    <option value="fulltime">Full Time</option>
+                    <option value="parttime">Part Time</option>
+                </select></label>
+                <button id="btn" style="margin-left:300px;">Post Job</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

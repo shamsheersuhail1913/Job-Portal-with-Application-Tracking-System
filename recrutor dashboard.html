@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruiter_Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://plus.unsplash.com/premium_photo-1681400545953-0ba00cfa7926?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aWNvbnxlbnwwfHwwfHx8MA%3D%3D">
+</head>
+<body>
+    <header>
+        <div id="column_list">
+          <a id="icon" inert="" style="position: relative;top: 10px;">Job Portal with ATS</a>
+          <a href="recrutor dashboard.html" class="a" style="padding:50px 10px 10px 20px;">Dashboard</a>
+          <a href="post job.html" class="a" style="padding:20px 10px 10px 20px;">Post Job</a>
+          <a href="applcation pipeline.html" class="a" style="padding:20px 10px 10px 20px;">Applicant Pipeline</a>
+          <a href="#" class="a" style="padding:20px 10px 10px 20px;"> &#xf508;</a>
+        </div>
+    </header>
+    <main style="margin-left:19%;">
+        <button id="postjobbtn" onclick="window.location.href='post job.html'">Post New Job</button>   
+        <h1>Recruiter Dashboard</h1> 
+        <h3 style="padding: 20px 0px 30px 0px;">Overview of Your Job postings and applicants</h3>
+        <div id="my_app">
+            <div class="my_applications_grid">
+                <h2>Jobs Posted</h2>
+                <p style="padding-top: 20px;font-weight: 700;">10</p>
+            </div>
+            <div class="my_applications_grid">
+                <h2>Total Applications</h2>  
+                <p style="padding-top: 20px;font-weight: 700;">5</p>
+            </div>
+            <div class="my_applications_grid">
+                <h2>In Progress</h2>
+                <p style="padding-top: 20px;font-weight: 700;">2</p>
+            </div>
+        </div>
+        <div id="table">
+            <table>
+                <tr>
+                    <th>Job Title</th>
+                    <th>Posted Date</th>
+                    <th>Total Applications</th>
+                    <th>Status(Open/Close)</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>Software Engineer</td>
+                    <td>12 Aug 2024</td>
+                    <td>25</td>
+                    <td style="text-align: center;"><button class="open">Open</button></td>
+                    <td style="text-align: center;"><button class="view_pipe" onclick="window.location.href='applcation pipeline.html'">View</button></td>
+                </tr>
+                <tr>
+                    <td>Front-end Developer</td>
+                    <td>15 Aug 2024</td>
+                    <td>30</td>
+                    <td style="text-align: center;"><button class="open">Open</button></td>
+                    <td style="text-align: center;"><button class="view_pipe" onclick="window.location.href='applcation pipeline.html'">View</button></td>
+                </tr>
+                <tr>
+                    <td>Back-end Developer</td>
+                    <td>16 Aug 2024</td>
+                    <td>25</td>
+                    <td style="text-align: center;"><button class="close">Closed</button></td>
+                    <td style="text-align: center;"><button class="view_pipe" onclick="window.location.href='applcation pipeline.html'">View</button></td>
+                </tr>
+                <tr>
+                    <td>Database Developer</td>
+                    <td>17 Aug 2024</td>
+                    <td>35</td>
+                    <td style="text-align: center;"><button class="open">Open</button></td>
+                    <td style="text-align: center;"><button class="view_pipe" onclick="window.location.href='applcation pipeline.html'">View</button></td>
+                </tr>
+                <tr>
+                    <td>AI Developer</td>
+                    <td>18 Aug 2024</td>
+                    <td>25</td>
+                    <td style="text-align: center;"><button class="close">Closed</button></td>
+                    <td style="text-align: center;"><button class="view_pipe" onclick="window.location.href='applcation pipeline.html'">View</button></td>
+
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
